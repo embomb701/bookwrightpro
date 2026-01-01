@@ -1,0 +1,22 @@
+{
+  "name": "bookwright-pro",
+  "version": "1.0.0",
+  "description": "AI-powered book generation web app",
+  "scripts": {
+    "dev": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "install:all": "npm install && cd client && npm install",
+    "netlify:dev": "netlify dev"
+  },
+  "keywords": [
+    "book",
+    "generator",
+    "ai",
+    "writing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  }
+}
