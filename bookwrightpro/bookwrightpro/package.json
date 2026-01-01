@@ -1,0 +1,13 @@
+{
+  "name": "bookwrightpro",
+  "version": "1.0.0",
+  "description": "BookWrightPro: Generate books from prompts (React + Netlify Functions)",
+  "scripts": {
+    "dev": "concurrently \"cd client &amp;&amp; npm start\" \"netlify dev\"",
+    "build": "cd client &amp;&amp; npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "netlify-cli": "^17.0.0"
+  }
+}
